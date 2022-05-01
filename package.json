@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/xiumubai/webpack-core#readme",
   "devDependencies": {
+    "@babel/generator": "^7.17.10",
+    "@babel/parser": "^7.17.10",
+    "@babel/traverse": "^7.17.10",
+    "babel-types": "^6.26.0",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2"
   }
