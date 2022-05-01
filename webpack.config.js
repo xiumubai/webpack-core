@@ -1,4 +1,7 @@
 const path = require('path');
+const RunPlugin = require('./lib/plugins/runPlugin');
+const DonePlugin = require('./lib/plugins/DonePlugin');
+
 module.exports = {
   mode: 'development',
   devtool: false,
@@ -7,4 +10,5 @@ module.exports = {
     filename: '[name].js',
     path: path.resolve('dist'),
   },
+  plugins: [new RunPlugin(), new DonePlugin()],
 };
