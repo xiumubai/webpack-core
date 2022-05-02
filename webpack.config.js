@@ -5,11 +5,11 @@ const DonePlugin = require('./lib/plugins/DonePlugin');
 module.exports = {
   mode: 'development',
   devtool: false,
-  // entry: './src/index.js',
-  entry: {
-    foo: './src/foo.js',
-    bar: './src/bar.js',
-  },
+  entry: './src/index.js',
+  // entry: {
+  //   foo: './src/foo.js',
+  //   bar: './src/bar.js',
+  // },
   output: {
     filename: '[name].js',
     path: path.resolve('dist'),
